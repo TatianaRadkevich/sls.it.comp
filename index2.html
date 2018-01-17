@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+
+<canvas width="500" height="300" id="myCanvas">
+    <ul>
+        <li><a href="#">FullStack</a></li>
+        <li><a href="#">Oracle</a></li>
+        <li><a href="#">MySQL</a></li>
+        <li><a href="#">Delphi</a></li>
+        <li><a href="#">JavaEE</a></li>
+        <li><a href="#">JavaSE</a></li>
+        <li><a href="#">C</a></li>
+        <li><a href="#">C#</a></li>
+        <li><a href="#">C++</a></li>
+        <li><a href="#">ASP.NET</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">JavaScript</a></li>
+        <li><a href="#">TypeScript</a></li>
+        <li><a href="#">OLAP</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">FullStack</a></li>
+        <li><a href="#">Oracle</a></li>
+        <li><a href="#">MySQL</a></li>
+        <li><a href="#">Delphi</a></li>
+        <li><a href="#">JavaEE</a></li>
+        <li><a href="#">JavaSE</a></li>
+        <li><a href="#">C</a></li>
+        <li><a href="#">C#</a></li>
+        <li><a href="#">C++</a></li>
+        <li><a href="#">ASP.NET</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">JavaScript</a></li>
+        <li><a href="#">TypeScript</a></li>
+        <li><a href="#">OLAP</a></li>
+        <li><a href="#">CSS</a></li>
+    </ul>
+</canvas>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tagcanvas.min.js"></script>
+
+<script>
+
+    $(document).ready(function() {
+        $('#myCanvas').tagcanvas({
+            textColour : '#555', // Цвет текста
+            outlineThickness : 0, // Обводка у ссылок (Да, Нет)
+            maxSpeed : 0.1, // Максимальная скорость
+            depth : 0.1 // Глубина. От 0 до 1
+        })
+    });
+</script>
+</body>
+</html>
